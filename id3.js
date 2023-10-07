@@ -5,7 +5,12 @@ const Mirzobek = {
     is: "black",
     style: "tekis",
   },
+  qanday: function qochdi() {
+    console.log("tez eshik orqali");
+  },
 };
+
+Mirzobek.qanday();
 
 for (let key in Mirzobek) {
   if (typeof Mirzobek[key] === "object") {
